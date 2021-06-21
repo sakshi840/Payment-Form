@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="main_heading">Payment Form</h1>
+        <h2>Contact information</h2>
+        <p>Name: <input type="text" name="name" required placeholder="sakshi saha"></p>
+        <fieldset>
+            <legend>Gender:*</legend>
+        <p> Male<input type="radio" name="Gender" id="Gender" required>
+            Female<input type="radio" name="Gender" id="Gender" required>
+        </p>
+    </fieldset>
+    <p> Address : <textarea name="address" id="address" cols="100" rows="8"> </textarea></p>
+    <p> Email:* <input type="email" name="email" id="email" required></p>
+    <p> Pincode:* <input type="number" name="pincode" id="pincode" required></p>
+    <h2>Payment Information</h2>
+    <p>Card type:*
+        <select name="card type" id="card type" required>
+            <option value="">--Select a card type--</option>
+            <option >visa</option>
+            <option > rupay</option>
+            <option >mastercard</option>
+        </select>
+    </p>
+    <p> Card Number*<input type="number" name="card number" id="card number" required></p>
+    <p>Expiration Date *<input type="date" name="expiration date" id="expiration date" required></p>
+    <p>CVV:* <input type="password" name="cvv" id="cvv" required></p>
+    <input type="submit" value="pay now">
+
+
+
+
+    </form>
+</div>
+</body>
+</html>
